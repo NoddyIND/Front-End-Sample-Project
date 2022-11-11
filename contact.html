@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style1.css">
+    <script src="https://kit.fontawesome.com/0042fd5976.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="contactus">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <div class="bg-img">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container">
+        <img src="Images/101.png" height="50" width="50" alt="">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact.html">Contact us</a></li>
+
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+    <div class="row row-content">
+
+
+    <div class="col-md-6 col-sm-6">
+    <img src="Images/contac.png" height="250" width="250" alt="" class="virat">
+    </div>
+    <div class="col-md-6 col-sm-6">
+    <span class="about">Contact<br><span class="us">Us</span></span>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+
+<div class="container">
+  <div class="row row-content new1">
+      <div class="col-12 col-sm-4">
+        <h3>Our Address</h3>
+             <address style="font-size: 100%">
+           Survey No, 124,<br>
+            Paud Rd, Kothrud,<br>
+             Pune, Maharashtra<br>
+              411038.</address>
+           <i class="fa fa-envelope"></i><a href="mailto:sourabhkardile47@gmail.com"> sourabhkardile47@gmail.com</a><br>
+           <i class="fa fa-phone"></i><a href="tel:+917972913178"> +91 7972913178</a><br>
+           <div class="btn-group" role="group">
+             <a role="button" class="btn btn-primary" href="tel:+917972913178"><span class="fa fa-phone"> Call</a>
+               <a role="button" class="btn btn-info" href="#"><span class="fa fa-skype"> skype</a>
+                 <a role="button" class="btn btn-success" href="mailto:sourabhkardile47@gmail.com"><span class="fa fa-envelope"> mail</a>
+           </div>
+      </div>
+      <div class="col-12 col-sm-6 offset-sm-2">
+        <h3>Location</h3>
+        <div class="maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60532.899604488004!2d73.80696589592287!3d18.515058940548407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e49e1acf9d9e803!2sMIT-WPU%20ENTREPRENEURSHIP%20CELL!5e0!3m2!1sen!2sin!4v1590849597768!5m2!1sen!2sin" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+      <div class="col-12 col-sm-11 offset-sm-1">
+
+      </div>
+  </div>
+
+  <div class="row row-content form">
+     <div class="col-12 offset-4">
+        <h3>Send your Feedback</h3>
+     </div>
+      <div class="col-12 col-md-9 offset-md-1 form1">
+
+
+<form class="feedbackform" method="post">
+          <div class="form-group row">
+            <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+            <div class="col-md-10">
+              <input type="text" name="firstname" class="form-control" id="firstname" value="" placeholder="First Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="firstname" class="col-md-2 col-form-label">Last Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last Name" value="">
+            </div>
+
+          </div>
+          <div class="form-group row">
+            <label for="telnum" class="col-md-2 col-form-label">Contact no.</label>
+            <div class="col-5 col-md-3">
+              <input type="tel" name="contact" class="form-control" placeholder="CountryCode" id="countrycode"value="">
+            </div>
+              <div class="col-7 col-md-7">
+                <input type="tel" id="telnum" class="form-control" placeholder="Contact no." name="contactno" value="">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-md-2 col-form-label">Email</label>
+              <div class="col-md-10">
+              <input type="email" id="email" placeholder="email" class="form-control" name="" value="">
+            </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6 offset-md-2">
+                <div class="form-check">
+                  <input type="checkbox" id="approve" name="checkbox" class="form-check-" value="">
+                  <label for="approve" class="form-check-label"><strong>May we contact you?</strong></label>
+                </div>
+              </div>
+
+            <div class="col-md-2 offset-md-1">
+              <select class="form-control" name="">
+                <option>Tel.</option>
+                <option>Email</option>
+              </select>
+
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+            <div class="col-md-10">
+              <textarea name="feedback" rows="12" id="feedback" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+              <button type="submit" class="btn btn-dark" name="button">Send Feedback</button>
+            </div>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+  <div class="row row-content">
+    <div class="col-md-4">
+      <img src="Images/101.png" height="50" width="50" alt="">
+    </div>
+    <div class="col-md-4 offset-md-4">
+      <p>© Copyright 2017 All rights Reserved<br><i>Created By Sourabh Kardile</i></p>
+    </div>
+  </div>
+</div>
+
+
+</footer>
+  </body>
+</html>

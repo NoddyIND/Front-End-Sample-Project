@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/0042fd5976.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style1.css">
+  </head>
+  <body class="index">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <div class="bg-img">
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+      <div class="container">
+        <img src="Images/101.png" height="50" width="50" alt="">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="Portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<div class="container">
+  <div class="col-md-8 row row-content">
+
+    <h4>What is Lorem Ipsum?</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere morbi leo urna molestie at elementum eu facilisis sed. Faucibus a pellentesque sit amet porttitor eget dolor. Quam quisque id diam vel quam elementum pulvinar etiam. Vitae purus faucibus ornare suspendisse. Diam quam nulla porttitor massa id neque aliquam. Suscipit tellus mauris a diam. Eu lobortis elementum nibh tellus molestie nunc non. In tellus integer feugiat scelerisque varius morbi enim nunc. Tristique magna sit amet purus. Nibh tellus molestie nunc non blandit massa enim nec. Faucibus a pellentesque sit amet porttitor eget dolor morbi non.</p>
+  </div>
+<div class="col-md-4">
+  <form class="" action="index.html" method="post">
+    <h4 align="center">Sign up for our event</h4>
+    <div class="form-group row">
+      <input type="text" name="" placeholder="Enter Email Id"value="" class="form-control">
+    </div>
+    <div class="form-group row">
+      <input type="text" name="email" value="" placeholder="Enter Name" class="form-control">
+    </div>
+    <div class="form-group row">
+      <input type="text" name="" value="" placeholder="Enter Phone number" class="form-control">
+    </div>
+    <div class="form-group row">
+      <input type="text" name="" value="" placeholder="Enter username" class="form-control">
+    </div>
+    <div class="form-group row">
+      <button type="submit" class="btn btn-success form-control" name="button">Submit</button>
+    </div>
+  </form>
+</div>
+</div>
+<div class="img">
+<div class="centered">
+  <div class="container">
+  <h2 align="center">Join our Event</h2>
+  <p align="center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <button type="submit" class="btn btn-success" name="button">Join</button>
+
+</div>
+</div>
+</div>
+
+<h3 align="center">OUR STAFF</h3>
+<div class="stuff">
+<div class="container">
+  <div class="row row-content">
+  <div class="col-md-6">
+    <div class="box">
+      <p><img src="Images/12.jpg" alt="12" style="width:170px;height:214px;margin-right:15px;">
+        <h3>John Smith</h3>
+        <h6>(Director)</h6>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining<span id="dotss">...</span><span id="mores">
+        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+         and more  </span><button onclick="myFunction()" class="btn" id="myBtns">Read more &rarr;</button></p>
+
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dotss");
+  var moreText = document.getElementById("mores");
+  var btnText = document.getElementById("myBtns");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more &rarr;";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="box">
+      <p><img src="Images/12.jpg" alt="12" style="width:170px;height:214px;margin-right:15px;">
+        <h3>John Smith</h3>
+        <h6>(Director)</h6>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining<span id="dots">...</span><span id="more">
+        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+         and more  </span><button onclick="myFunction1()" class="btn"id="myBtn">Read more &rarr;</button></p>
+
+
+<script>
+function myFunction1() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more &rarr;";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="row row-content">
+<div class="col-md-6">
+  <div class="box">
+    <p><img src="Images/12.jpg" alt="12" style="width:170px;height:214px;margin-right:15px;">
+      <h3>John Smith</h3>
+      <h6>(Director)</h6>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+      a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining<span id="dotsss">...</span><span id="moress">
+      essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+       and more  </span><button onclick="myFunction3()" class="btn"id="myBtnss">Read more &rarr;</button></p>
+
+
+<script>
+function myFunction3() {
+var dots = document.getElementById("dotsss");
+var moreText = document.getElementById("moress");
+var btnText = document.getElementById("myBtnss");
+
+if (dots.style.display === "none") {
+  dots.style.display = "inline";
+  btnText.innerHTML = "Read more &rarr;";
+  moreText.style.display = "none";
+} else {
+  dots.style.display = "none";
+  btnText.innerHTML = "Read less";
+  moreText.style.display = "inline";
+}
+}
+</script>
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="box">
+    <p><img src="Images/12.jpg" alt="12" style="width:170px;height:214px;margin-right:15px;">
+      <h3>John Smith</h3>
+      <h6>(Director)</h6>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+      a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining<span id="dotses">...</span><span id="morees">
+      essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+       and more  </span><button onclick="myFunction4()" class="btn"id="myBtnes">Read more &rarr;</button></p>
+
+
+<script>
+function myFunction4() {
+var dots = document.getElementById("dotses");
+var moreText = document.getElementById("morees");
+var btnText = document.getElementById("myBtnes");
+
+if (dots.style.display === "none") {
+  dots.style.display = "inline";
+  btnText.innerHTML = "Read more &rarr;";
+  moreText.style.display = "none";
+} else {
+  dots.style.display = "none";
+  btnText.innerHTML = "Read less";
+  moreText.style.display = "inline";
+}
+}
+</script>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+  <div class="row row-content">
+    <div class="col-md-4">
+      <img src="Images/101.png" height="50" width="50" alt="">
+    </div>
+    <div class="col-md-4 offset-md-4">
+      <p>© Copyright 2017 All rights Reserved<br><i>Created By Sourabh Kardile</i></p>
+    </div>
+  </div>
+</div>
+
+
+</footer>
+  </body>
+</html>
